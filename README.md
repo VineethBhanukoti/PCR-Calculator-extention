@@ -7,6 +7,10 @@ An Extention to Calculate the Put Call Ration of the current market and specifie
 
 
 
+
+
+
+
 This extention is used to numerically and graphically indicate the sentiment of the market and, this tool eliminates the tedious process of downloading the option chain data and processing it to give the PCR ratio, by giving the exact PCR ratio at the spot within the specified range.
 
 To install the extention in your browser:
