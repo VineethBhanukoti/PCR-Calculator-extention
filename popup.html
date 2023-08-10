@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;" >
+        <h1 style="color:rgb(181, 206, 235);text-decoration: solid; font-family:Georgia, 'Times New Roman', Times, serif;padding-top: 10px;">PCR Calculator</h1>
+        <div class="inputs" style="text-align: left;">
+            &ensp;&ensp;Upper Bound&ensp; &ensp; &ensp; &ensp;&ensp; &ensp;Lower Bound
+           &ensp;<input id="ub" type="number" min="10000" max="30000" step="50" style="height: 25px; width: 120px;padding-left: 10px;margin-top: 10px;border-radius: 8px;"> 
+           <input id="lb" type="number" min="10000" max="30000" step="50" style="height: 25px; width: 120px;padding-left: 10px;margin-left: 20px;margin-top: 10px;border-radius: 8px;">
+        </div>
+        <Table style="padding-left: 20px;">
+            <tr>
+                <td class="tablecontents" style="font-size: 20px;padding-left:10px;">Nifty 50</td>
+                <td class="tablecontents" id = "underlyingindex" style="font-size: 15px;padding-left:10px;"></td>
+            </tr>
+            <tr><br></tr>
+            <tr>
+                <td class="tablecontents" id ="index" style="padding-left:10px">Index Value</td>
+                <td class="tablecontents" id = "fpcr" style="padding-left:10px">PCR:</td>
+                <td class="tablecontents" id = "fpcrv" style="padding-left:5px"></td>
+            </tr>
+            <tr>
+                <td class="tablecontents" id = "chg" style="padding-left:10px">Change</td>
+                <td class="tablecontents" style="padding-left:10px">True PCR:</td>
+                <td class="tablecontents" id  = "tpcrv" style="padding-left:5px"></td>
+            </tr>
+            <tr>
+                <td class="tablecontents" id = "date" style="padding-left:5px">date</td>
+                <td class="tablecontents" style="padding-left:10px">Result:</td>
+                <td class="tablecontents" id = "result" style="font-size: 12px;"></td>
+            </tr>
+        </Table>
+        <br>
+        <div class=" rectangle">
+            <div id="arrows" class="arrow speed-0">
+            </div>
+        </div>
+        <br>
+        <button class="buttons" id="findPCR">Find PCR</button>
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>
+<!-- 1.5/0.7 -->
