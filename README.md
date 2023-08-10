@@ -1,7 +1,12 @@
 # PCR-Calculator-extention
 An Extention to Calculate the Put Call Ration of the current market and specified range.
 [Disclaimer: The tool is for purely educational purposes and does not advocate or promote any forms of stratergy of trading in stocks, options, Futures or any others financial constructs.]
+
+
 ![image](https://github.com/VineethBhanukoti/PCR-Calculator-extention/assets/105901442/4d3959b4-5efb-4d9f-a267-0c953f635f5b)
+
+
+
 This extention is used to numerically and graphically indicate the sentiment of the market and, this tool eliminates the tedious process of downloading the option chain data and processing it to give the PCR ratio, by giving the exact PCR ratio at the spot within the specified range.
 
 To install the extention in your browser:
